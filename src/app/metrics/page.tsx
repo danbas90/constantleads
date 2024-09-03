@@ -7,11 +7,11 @@ import MetricsChart from '@/components/metrics/chart';
 import MetricsBar from '@/components/metrics/bar';
 
 export default async function MetricsPage() {
-        const session = await getSession();
-      
-        if (!session.accessToken || !session.refreshToken) {
-          redirect("/");
-        }
+  const { accessToken } = await getSession();
+  
+  if (!accessToken ) {
+    redirect("/");
+  }
 
   try {
     const metrics = await getMetrics();
