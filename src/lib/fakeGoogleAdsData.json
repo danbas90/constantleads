@@ -1,0 +1,47 @@
+[
+    {
+      "id": "1234567890",
+      "name": "Dummy Campaign 1",
+      "status": "ENABLED",
+      "type": "SEARCH",
+      "impressions": 1000,
+      "clicks": 50,
+      "cost": "100.00"
+    },
+    {
+      "id": "0987614321",
+      "name": "Dummy Campaign 2",
+      "status": "ENABLED",
+      "type": "DISPLAY",
+      "impressions": 5000,
+      "clicks": 100,
+      "cost": "200.00"
+    },
+    {
+      "id": "1234537890",
+      "name": "Dummy Campaign 3",
+      "status": "ENABLED",
+      "type": "SEARCH",
+      "impressions": 3000,
+      "clicks": 90,
+      "cost": "100.00"
+    },
+    {
+      "id": "1234567891",
+      "name": "Dummy Campaign 4",
+      "status": "ENABLED",
+      "type": "SEARCH",
+      "impressions": 3000,
+      "clicks": 50,
+      "cost": "400.00"
+    },
+    {
+      "id": "1231267892",
+      "name": "Dummy Campaign 5",
+      "status": "ENABLED",
+      "type": "SEARCH",
+      "impressions": 3200,
+      "clicks": 200,
+      "cost": "600.00"
+    }
+  ]
