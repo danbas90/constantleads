@@ -2,7 +2,7 @@ import { OAuth2Client } from 'google-auth-library';
 
 const clientId = process.env.GOOGLE_ADS_CLIENT_ID!;
 const clientSecret = process.env.GOOGLE_ADS_CLIENT_SECRET!;
-const redirectUri = 'http://localhost:3000/api/auth/callback/';
+const redirectUri = process.env.GOOGLE_AUTH_REDIRECT_URI!;
 
 export const oAuth2Client = new OAuth2Client(clientId, clientSecret, redirectUri);
 
