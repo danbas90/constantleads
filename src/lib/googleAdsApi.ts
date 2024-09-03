@@ -6,7 +6,7 @@ const customerId = process.env.GOOGLE_ADS_CUSTOMER_ID!;
 
 export async function getMetrics() {
   const { accessToken, refreshToken } = await getSession();
-  if (!accessToken || !refreshToken) {
+  if (!accessToken) {
     throw new Error('Not authenticated');
   }
 
@@ -20,7 +20,7 @@ export async function getMetrics() {
     const customer = client.Customer({
       customer_id: customerId,
       login_customer_id: customerId,
-      refresh_token: refreshToken,
+      refresh_token: refreshToken!,
     });
         
     const campaigns = await customer.report({
