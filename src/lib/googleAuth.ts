@@ -8,7 +8,7 @@ export const oAuth2Client = new OAuth2Client(clientId, clientSecret, redirectUri
 
 export function getAuthUrl() {
   return oAuth2Client.generateAuthUrl({
-    access_type: 'offline',
+    access_type: 'online',
     scope: ['https://www.googleapis.com/auth/adwords'],
   });
 }
