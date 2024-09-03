@@ -14,7 +14,7 @@ interface PageProps {
 export default async function CampaignPage({ params }: PageProps) {
   const session = await getSession();
   
-  if (session.refreshToken) {
+  if (!session.accessToken ) {
     redirect("/");
   }
 

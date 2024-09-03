@@ -43,5 +43,14 @@
       "impressions": 3200,
       "clicks": 200,
       "cost": "600.00"
+    },
+    {
+      "id": "3423267892",
+      "name": "Dummy Campaign 6",
+      "status": "ENABLED",
+      "type": "SEARCH",
+      "impressions": 3200,
+      "clicks": 120,
+      "cost": "600.00"
     }
   ]
